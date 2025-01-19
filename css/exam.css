@@ -1,0 +1,112 @@
+*{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    box-sizing: border-box;
+}
+
+H1{
+ font-size: 0.7rem;
+ color:var(--color-black);
+ font-family: 'Times New Roman', Times, serif;
+ margin: 20px 0;
+ letter-spacing: 4px;
+ text-transform: uppercase;
+}
+
+h2{
+font-size: 2rem;
+ color:var(--color-black);
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 1000;
+ margin: 40px 0;
+ line-height: 30px;
+ word-spacing: 1px;
+ letter-spacing: 3px;
+}
+
+p{
+font: 1em sans-serif;
+color: var(--color-black);
+margin: 40px 0;
+line-height: 20px;
+letter-spacing: 1px;
+
+
+}
+
+h5{
+    font-size: 2rem;
+    color:var(--color_perfume);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;  
+    margin: 50px 0;
+    line-height: 20px;
+    word-spacing: 1px;
+    letter-spacing: 3px
+
+}
+
+h5 span{
+    vertical-align: super;
+    text-decoration: line-through;
+    font-size: 10px;
+    color: var(--color-black);
+}
+
+:root{
+--color-variant:#EADBC8;
+--color-black:#000;
+--color-white:#fff;
+--color-normal: #FFFFFF;
+--color_perfume:#d87093;
+
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    background-color: var(--color-variant);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main_container{
+    background-color: var(--color-white);
+    width: 50%;
+    height: 80%;  
+    margin: 1000px 300px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.flip_vertical{
+width:50%;
+height:100%;
+
+}
+
+.perfume_write_up{
+width: 100%;
+height: 100%;
+padding: 10px 20px;
+}
+
+button{
+    background-color:var(--color_perfume);
+    border-radius: 4px;
+    justify-content: center;
+    font-size: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--color-normal);
+    border-style: none;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    width: 80%;
+    justify-content: center;
+
+}
+
