@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+--color-one:#8EFF9A80;
+--color-two:#102C57;
+--color-three:#FCF2E8;
+--color-heading-one:#000000;
+--color-heading-two:#4A4A4A;
+--button-color:#FFFFFF;
+
+}
+
+
+h1{
+    font-family: sans-serif;
+}

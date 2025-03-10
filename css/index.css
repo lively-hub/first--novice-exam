@@ -1,0 +1,241 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-variant: #FEFAF6;
+    --color-variant-1: #EADBC8;
+    --color-variant-2:#DAC0A3 ;
+    --color-text-1: #FFFFFF;
+    --color-text-2: #102C57;
+    --color-black:#000;
+    --color-white:#fff;
+    --colour-background:#FCF2E8;
+
+    --container-width-lg:85%;
+    --container-width-md:92%;
+
+    
+}
+
+body{
+    font-family:inter,sanserif;
+    color:var(--color-black);
+    background-color:var(--color-white);
+    font-size:0.9rem;
+    background-color: var(--colour-background);
+
+}
+
+h1,
+h2{
+    font-weight: 900;
+    color: var(--color-black);
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 400;  
+}
+
+h1{
+    font-size: 2.8rem;
+}
+
+h2{
+    font-size: 2.8rem;
+}
+
+p{
+    font-size: 1.625rem;
+    font-weight: 300;
+    color:var(--color-black);
+}
+
+button{
+    cursor: pointer;
+    background-color: var(--color-text-2);
+    color: var(--color-white);
+    border-radius: 500px;
+    font-size:1.25rem;
+    font-weight: 500;
+    line-height: 1.86rem;
+}
+
+img{
+    display:block;
+    object-fit:cover;
+    width:100%;
+}
+
+/* .container{
+    /* width:var(--container-width-lg);
+    /* max-width: 100px; */
+    /* margin:auto; */
+*/ */
+
+/* header */
+header{
+    width: 100vw;
+    height:100vh;
+    background-color: var(--color-variant);
+    display:flex;
+    flex-direction:column;
+    gap: 2rem;
+}
+
+nav{
+    background-color: transparent;
+    width:100vw;
+    height: 5rem;
+}
+
+.nav_container{
+    height:100%;
+    display:flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.nav_logo{
+    margin-top:1.81rem;
+    margin-left: 7.50rem;
+    width:7rem;
+    height: 7rem;
+}
+
+.nav_link{
+    margin-top:1.20rem;
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.nav_link a{
+    text-transform: capitalize;
+    color: var(--color-black);
+}
+
+.nav_button{
+    height:40px;
+    width:120px;
+    margin-top: 1.30rem;
+    margin-right:72px;
+    font-size: 1rem;
+}
+.nav_button i{
+    padding-right: 3px;
+
+}
+
+.header_head{
+    width:1300px;
+    height:100px;
+    display: flex;
+    flex-direction:row;
+    /* grid-template-columns:repeat(2,1fr); */
+    
+}
+
+.left_heading{
+    width:670px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    padding-right: 1rem;
+
+}
+
+.heading_text{
+    margin-left: 50px;
+    margin-top:140px;
+    font-family: "Poppins", sans-serif;
+    width: 650px;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.heading_text_2{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: "Inter", sans-serif;
+    width: 650px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.heading_button{
+    height:40px;
+    width:120px;
+    margin-left: 50px;
+    display: flex;
+    align-content: center;
+    margin-top:50px ;
+    padding:20px 20px;
+    font-size: 1rem;
+    line-height:0;
+    box-shadow:5px 5px 10px rgb(167, 192, 156);
+}
+
+.right_heading{
+    width:550px;
+    height:800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color:transparent;
+    margin-right: 180px;
+    margin-top: 50px;
+    position: relative;
+   
+
+
+}
+
+.circle{
+width:620px ;
+height:620px;
+border-radius: 50%;
+background-color: var(--color-text-2);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 70px;
+margin-right: 120px;
+}
+
+
+.right_heading img{
+    height: 800px;
+    width: 650px;
+    margin-bottom: 150px;
+
+   
+    
+
+}
+    
+.call-out-banner{
+    width: 120px;
+    height:30px;
+background-color: var(--color-variant-2);
+padding: 5px 10px;
+display: flex;
+justify-content: center;
+justify-content: center;
+border-radius: 30px;
+position: absolute;
+margin-right: 530px;
+margin-bottom: 490px;
+font-size: 20px;
+font-weight: 300;
+color: red;
+}
